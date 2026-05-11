@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0a0a0a"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.marceladias.portfolio"
     },
     "web": {
       "bundler": "metro",
@@ -30,6 +31,18 @@
     "plugins": [
       "expo-router",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a8236ec9-cb6f-4ae2-a729-a12f6ce2cf17"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a8236ec9-cb6f-4ae2-a729-a12f6ce2cf17"
+    }
   }
 }
